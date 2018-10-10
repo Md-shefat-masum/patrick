@@ -1,0 +1,298 @@
+/*
+*******************************************
+*******************************************
+
+Template Name: portfolio
+Template URL: http://
+Description:  Personal Portfolio Template.
+Author: Shefat production
+Author URL: https://
+Version: 1.0
+
+* This file contains the styling for the actual theme, this
+is the file you need to edit to change the look of the
+theme.
+
+This files contents are outlined below >>>>
+
+*** SEARCH EACH SECTION AS IT COMMENTS, YOU WILL GET THE RIGHT SECTION.
+
+**************************************************
+**************************************************
+
+==== CSS INDEX ===================================
+
+01 - defaul css
+02 - Common heading part css
+03 - back to top button
+
+==================================================*/
+/*================================================
+    01 - defaul css
+==================================================*/
+* {
+  padding: 0;
+  outline: 0;
+  margin: 0;
+}
+body,
+p,
+a,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  display: block;
+  text-decoration: none;
+  margin-bottom: 0;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+body {
+  overflow-x: hidden;
+}
+h1 {
+  font-size: 60px;
+  line-height: 54px;
+  color: #ffffff;
+}
+h2 {
+  font-size: 59px;
+  line-height: auto;
+}
+h3 {
+  color: #b1d3ff;
+}
+h4 {
+  color: #b1d3ff;
+}
+h5 {
+  color: #b1d3ff;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 30px;
+}
+p {
+  color: #173557;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+}
+/*mixins and variables start*/
+/*mixins and variables end*/
+#blog {
+  padding-bottom: 50px;
+}
+.b-right .post-by {
+  width: 100%;
+  overflow: hidden;
+}
+.b-right .post-by h2 {
+  font-family: 'Poppins', sans-serif;
+  color: #086ddf;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+.b-right .short-note {
+  width: 100%;
+  overflow: hidden;
+  padding-top: 30px;
+}
+.b-right .short-note .left {
+  width: 100%;
+  overflow: hidden;
+  background: url(../images/single-blog/short-note-bg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 40px;
+  text-align: center;
+}
+#blog .blog-body .b-right .left p {
+  color: #086ddf;
+  font-size: 32px;
+  font-style: italic;
+  line-height: 42px;
+  font-weight: 400;
+}
+#blog .blog-body .b-right .prev {
+  float: left;
+  margin-top: 30px;
+}
+#blog .blog-body .b-right .next {
+  float: right;
+  margin-top: 30px;
+}
+#comments .left-line {
+  width: 100%;
+  height: 2px;
+  background: #086ddf;
+  margin-top: 14px;
+}
+#comments .comments-heading {
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 30px;
+}
+#comments .comments-heading h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #086ddf;
+}
+#comments .comments-img {
+  width: 70px;
+  height: 70px;
+  background: #b1d3ff;
+  border: 2px solid #086ddf;
+  border-radius: 50%;
+  overflow: hidden;
+}
+#comments .comment-body {
+  padding-bottom: 30px;
+}
+#comments .comment-body .comments-des h5 {
+  font-size: 16px;
+  line-height: 26px;
+  font-family: 'Poppins', sans-serif;
+  color: #173557;
+  font-weight: 600;
+}
+#comments .comment-body .comments-des span {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000000;
+  width: 100%;
+}
+#comments .comment-body .comments-des span i {
+  float: right;
+  color: #173557;
+  text-transform: capitalize;
+  transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  cursor: pointer;
+}
+#comments .comment-body .comments-des span i:hover {
+  color: #b1d3ff;
+}
+#comments .comment-body .comments-des p {
+  border: 1px solid #086ddf;
+  border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0px;
+}
+#comments .comment-body .comment-reply {
+  padding-top: 20px;
+}
+/*comment part end*/
+/*leave a comment part start*/
+#leave-comment {
+  padding: 30px 0px;
+}
+#leave-comment .heading {
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 30px;
+}
+#leave-comment .heading .left-line {
+  width: 100%;
+  height: 2px;
+  background: #086ddf;
+  margin-top: 14px;
+}
+#leave-comment .heading h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #086ddf;
+}
+#leave-comment form input,
+#leave-comment form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #086ddf;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+#leave-comment form textarea {
+  resize: none;
+  height: 150px;
+}
+#leave-comment form button {
+  width: 100%;
+  padding: 15px;
+  cursor: pointer;
+  border: 0;
+  background: #086ddf;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  border-radius: 5px;
+  transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+}
+#leave-comment form button:hover {
+  background: #173557;
+}
+/*leave a comment part start*/
+@media (max-width: 575.98px) {
+  #blog {
+    padding: 50px 0px;
+  }
+  #blog .blog-body .b-right .left p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  #blog .blog-body .b-right .prev {
+    margin-bottom: 15px;
+  }
+  #blog .blog-body .b-right .next {
+    display: block;
+    float: left;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  #comments .comments-img {
+    height: 44px;
+    width: 44px;
+  }
+}
+/*
+*
+*
+*
+*
+*/

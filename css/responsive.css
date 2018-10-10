@@ -1,0 +1,470 @@
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media screen and (max-width: 575.98px) {
+
+    /*    header part start*/
+    #header .container .banner .banner-left h3 {
+        font-size: 30px;
+        line-height: 64px;
+        height: 64px;
+        width: 64px;
+        position: relative;
+        left: 9%;
+
+    }
+
+    #header .container .banner .banner-left h2 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    #header .container .banner .banner-left h1 {
+        font-size: 52px;
+        line-height: 80px;
+        text-align: center;
+    }
+
+    #header .container .banner .banner-left h4 {
+        font-size: 18px;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+
+    #header .container .banner .banner-left p {
+        padding-top: 40px;
+        text-align: center;
+    }
+
+    #header .container .banner .banner-left a {
+        text-align: center;
+        margin-bottom: 50px;
+        display: inline-block;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        width: 160px;
+    }
+
+    #header .container .banner .banner-left a:before {
+        left: -63px;
+    }
+
+    #header .container .banner .banner-right .r-profile-img img {
+        z-index: 99999999;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #header .container .banner .banner-right {
+        overflow: hidden;
+    }
+
+    #header .container .banner-bottom .go-down {
+        display: none;
+    }
+
+    #header .container .banner-bottom .left a {
+        text-align: center;
+        margin-bottom: 10px;
+        display: inline-block;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        width: 160px;
+    }
+
+    #header .container .banner-bottom .left a:before {
+        left: left: -63px;
+    }
+
+    #header .container .banner-bottom .social {
+        margin-top: 17px;
+    }
+
+    #header .container .banner-bottom .social ul {
+        float: left;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /*    header part end*/
+    /*    about me part start*/
+    #aboutme .left-particle {
+        height: 70px;
+        width: 70px;
+    }
+
+    #aboutme .right-particle {
+        bottom: 13%;
+        height: 70px;
+        width: 70px;
+    }
+
+    #aboutme .left-bottom {
+        bottom: 50px;
+        height: 70px;
+        width: 70px
+    }
+
+    #aboutme .container .right-des h2 {
+        text-align: center;
+        /*        padding-left: 32px;*/
+        font-size: 32px;
+        line-height: 52px;
+    }
+
+    #aboutme .container .right-des h2 span {
+        display: inline;
+    }
+
+    #aboutme .container .right-des p,
+    #aboutme .container .right-des .sub-heading {
+        text-align: center;
+    }
+
+    /*    about me part end*/
+
+    /*    servicer part start*/
+    #service .service-body {
+        padding-bottom: 65px;
+    }
+
+    .common-heading h3 {
+        font-size: 35px;
+        line-height: 45px;
+        text-align: center;
+    }
+
+    .common-heading p {
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+    }
+
+    #service .service-body .ser-des h4 {
+        font-size: 25px;
+    }
+
+    /*    servicer part end*/
+
+    /*    my work part start*/
+    #my-work .controls ul li {
+        padding: 5px 14px;
+    }
+
+    #my-work .see-all-works a:before {
+        left: 20%;
+    }
+
+    /*    my work part end*/
+
+    /*    hire me part start*/
+    #hire-me .left {
+        padding: 100px 0px;
+    }
+
+    .hireme-right {
+        display: none;
+    }
+
+    #hire-me .left h5 {
+        font-size: 26px;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    #hire-me .left p {
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 40px;
+    }
+
+    #hire-me .left a {
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /*    hire me part end*/
+    /*    achivement part start*/
+    #acheivement .acheivement-logo {
+        margin-top: 0;
+    }
+
+    #acheivement .acheivement-logo ul li {
+        padding-right: 28px;
+    }
+
+    #acheivement .right .left-line {
+        margin-top: 50px;
+    }
+
+    #acheivement .right .right-body h4 {
+        line-height: 40px;
+        padding-top: 30px;
+    }
+
+    /*    achivement part end*/
+
+    /*    Blog part start*/
+    .date-col {
+        padding-right: 0;
+    }
+
+    #blog .blog-body .date p:nth-child(1) {
+        font-size: 25px;
+    }
+
+    #blog .blog-body .date {
+        padding: 8px;
+        padding-bottom: 12px;
+    }
+
+    #blog .blog-body .b-right h5 {
+        font-size: 18px;
+    }
+
+    /*    Blog part end*/
+
+    /*    footer part start*/
+    #footer .footer-top .left .common-heading h3 {
+        font-size: 24px;
+        line-height: 54px;
+    }
+
+    /*    footer part end*/
+
+}
+
+@media (min-width: 320px) and (max-width: 575px) {}
+
+@media (min-width: 320px) and (max-width: 417.98px) {
+    .common-heading h3 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 465.98px) {
+    #client .client-body .client-pic {
+        height: 60px;
+        width: 60px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /*    header part start*/
+    #header .container .banner .banner-left h2 {
+        font-size: 48px;
+    }
+
+    #header .container .banner .banner-left h1 {
+        font-size: 75px;
+    }
+
+    #header .container .banner .banner-left h4 {
+        font-size: 20px;
+    }
+
+    #header .container .banner .banner-right .r-profile-img {
+        padding-top: 50px;
+    }
+
+    #header .container .banner-bottom .go-down {
+        display: none;
+    }
+
+    #header .container .banner-bottom .social ul {
+        float: left;
+        margin-left: 80px;
+        margin-bottom: 0;
+        margin-top: 20px;
+    }
+
+    /*    header part end*/
+
+    /*    work part start*/
+    #my-work .see-all-works a:before {
+        left: 30%;
+    }
+
+    /*    work part end*/
+    /*    hire me part start*/
+    .hireme-right {
+        display: none;
+    }
+
+    /*    hire me part end*/
+    /*    achievement part start*/
+    #acheivement .acheivement-logo {
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+
+    /*    achievement part end*/
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /*    header part start*/
+    #header .container .banner .banner-right {
+        overflow-x: hidden;
+    }
+
+    #header .container .banner .banner-left h2 {
+        font-size: 45px;
+    }
+
+    #header .container .banner .banner-left h1 {
+        line-height: 75px;
+        font-size: 59px;
+        padding-top: 10px;
+    }
+
+    #header .container .banner .banner-left h4 {
+        font-size: 18px;
+        padding-top: 10px;
+    }
+
+    /*    header part end*/
+
+    /*    about me part start*/
+    #aboutme .container .right-des h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    #aboutme .container .right-des p,
+    #aboutme .container .right-des .sub-heading {
+        font-size: 16px;
+        line-height: 28px;
+        margin-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    /*    about me part end*/
+
+    /*    common heading part start*/
+    .common-heading h3 {
+        font-size: 29px;
+        line-height: 40px;
+    }
+
+    .common-heading p {
+        font-size: 17px;
+        line-height: 27px;
+        padding-bottom: 80px;
+    }
+
+    /*    common heading part end*/
+
+    /*    service part start*/
+    #service .service-body .ser-des h4 {
+        font-size: 25px;
+    }
+
+    /*    service part end*/
+
+    /*    my work part start*/
+    #my-work .see-all-works a:before {
+        left: 36%;
+    }
+
+    /*    my work part end*/
+
+    /*    achivement part start*/
+    #acheivement .right .right-body h4 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    #acheivement .right .right-body .achiv-parts h6 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    /*    achivement part end*/
+
+    /*    client part start*/
+    #client .client-body .client-pic {
+        height: 60px;
+        width: 60px;
+    }
+
+    /*    client part end*/
+
+    /*    blog part start*/
+    #blog .blog-body .date {
+        padding: 15px 0px;
+        width: 145%;
+    }
+
+    #blog .blog-body .date p:nth-child(1) {
+        font-size: 25px;
+    }
+
+    /*    blog part end*/
+
+
+    /*    footer part start*/
+    #footer .footer-top .left .common-heading h3 {
+        line-height: 40px;
+    }
+
+    #footer #footer-bottom-part .fb-left ul li {
+        margin-right: 16px;
+        float: left;
+    }
+
+    /*    footer part end*/
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /*    header part start*/
+    #header .container .banner .banner-right {
+        overflow-x: hidden;
+    }
+
+    #header .container .banner .banner-left h1 {
+        font-size: 80px;
+    }
+
+    #header .container .banner .banner-left h4 {
+        font-size: 20px;
+    }
+
+    /*    header part end*/
+
+    /*    about me start*/
+    #aboutme .container .right-des h2 {
+        font-size: 34px;
+        line-height: 45px;
+    }
+
+    /*    about me end*/
+
+    /*    common heading part start*/
+    .common-heading h3 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    /*    common heading part start*/
+
+    /*    blog part start*/
+    #blog .blog-body .date p:nth-child(1) {
+        font-size: 25px;
+    }
+
+    /*    blog part end*/
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}
